@@ -1,3 +1,5 @@
+use('db_projeto')
+
 const questao4 = db.classroom_sections.aggregate([
     {
       $unwind: "$sections"
